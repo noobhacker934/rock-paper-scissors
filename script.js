@@ -78,8 +78,7 @@ function playGame(userMove){
     =`${result}<br>You <img src = "${userMove}-emoji.png" class = "move-icon">  <img src = "${compMove}-emoji.png" class = "move-icon"> Computer`;
 
     document.querySelector('.display-score').innerHTML = `Wins:${score.wins}; Losses:${score.losess}; Ties:${score.ties}`;
-
-    console.log(score);
+
 }
 
 function saveScore(){
