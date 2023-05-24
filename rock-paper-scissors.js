@@ -1,3 +1,4 @@
+alert("I am an alert box!");
 let score = {
     wins: 0,
     losess: 0,
