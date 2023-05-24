@@ -3,6 +3,7 @@ let score = {
     losess: 0,
     ties: 0
 };
+saveScore();
 getscore();
 displayScore();
 function displayScore(){
